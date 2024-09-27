@@ -1,0 +1,27 @@
+ /* body{
+     font-family: "Noto Serif Tc",serif;
+     line-height: 1.5;
+ } */
+
+ img{
+    max-width: 100%;
+    height: auto;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    /* text-decoration: none; //更改變數link-decoration */
+    color:inherit;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 0.1em;
+    line-height: $line-height-base;
+    /* 更改變數margin bottom 和下一個頭有headings的 */
+}
+
+p{
+    letter-spacing: 0.1em;  
+    /* 2%,em指的是可以跟著文字縮放大小 */
+}

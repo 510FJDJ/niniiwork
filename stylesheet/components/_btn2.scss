@@ -1,0 +1,22 @@
+.btn2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    background-color: $white;
+    border-radius: 100px;
+    border: 2px solid $primary-600;
+    box-shadow: 4px 4px 0px 0px #373737;
+    &:hover{
+        box-shadow: 7px 8px 0px 0px #373737;
+    }
+    &.active{
+        box-shadow: 7px 8px 0px 0px #373737;
+    }
+    @media (min-width:992px){
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
