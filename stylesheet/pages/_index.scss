@@ -1,33 +1,71 @@
-.grid-yellow{
-    width: 100% ; height:100%;
-//   background-color: rgba(255, 251, 229, 1);
-  background-image: linear-gradient(rgba(255, 205, 98, .3) 1px, transparent 5%),linear-gradient(90deg ,rgba(255, 205, 98, .3) 1px, transparent 10%);
-  background-size: 15px 15px;
-}
+
   
 .grid-white{
     position: relative;
     z-index: -1;
-    
-    &::after{
+    &::before{
         content: "";
         position: absolute;
         top: 0px;
         left: 0px;
-        // display: block;
-        width: 100% ; height:100%;
-//   background-color: rgb(90, 77, 5);
-  background-image: linear-gradient(rgba(255, 255, 255,1) 1px, transparent 5%),
-  linear-gradient(90deg ,rgb(255, 255, 255) 1px, transparent 5%);
-  background-size: 15px 15px;
-  z-index: 1;
-  pointer-events: none;
-    mask-image: url('/assets/images/dec/mask.png'); 
-    mask-mode: alpha; /* 基於 alpha 通道進行遮罩 */
-    mask-repeat: no-repeat;
-    mask-size: contain;
+        width: 100% ;
+        height:100%;
+        background-image: linear-gradient(rgba(255, 255, 255,1) 1px, transparent 5%),
+        linear-gradient(90deg ,rgb(255, 255, 255) 1px, transparent 5%);
+        background-size: 15px 15px;
+        z-index: 2;
+        pointer-events: none;
+        mask-image: url('/assets/images/dec/mask-wave-lg-2.png'); 
+        mask-mode: alpha; /* 基於 alpha 通道進行遮罩 */
+        mask-repeat: no-repeat;
+        mask-size: contain;
     }
+    // &::after{
+    //     content: "";
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 0px;
+    //     width: 100% ;
+    //     height:100%;
+    //     background-image: linear-gradient(rgba(255, 255, 255,1) 1px, transparent 5%),
+    //     linear-gradient(90deg ,rgb(255, 255, 255) 1px, transparent 5%);
+    //     background-size: 15px 15px;
+    //     z-index: 1;
+    //     pointer-events: none;
+    //     mask-image: url('/assets/images/dec/mask.png'); 
+    //     mask-mode: alpha; /* 基於 alpha 通道進行遮罩 */
+    //     mask-repeat: no-repeat;
+    //     mask-size: contain;
+    // }
     
+}
+// .grid-white-bottom{
+//     position: relative;
+//     z-index: 0;
+//     &::before{
+//         content: "";
+//         position: absolute;
+//         top: 0px;
+//         left: 0px;
+//         width: 100% ;
+//         height:100%;
+//         background-image: linear-gradient(rgba(255, 255, 255,1) 1px, transparent 5%),
+//         linear-gradient(90deg ,rgb(255, 255, 255) 1px, transparent 5%);
+//         background-size: 15px 15px;
+//         z-index: 2;
+//         pointer-events: none;
+//         mask-image: url('/assets/images/dec/mask-wave-lg-2.png'); 
+//         mask-mode: alpha; /* 基於 alpha 通道進行遮罩 */
+//         mask-repeat: no-repeat;
+//         mask-size: contain;
+//     }
+    
+// }
+
+.grid-yellow{
+  width: 100% ; height:100%;
+  background-image: linear-gradient(rgba(255, 205, 98, .3) 1px, transparent 5%),linear-gradient(90deg ,rgba(255, 205, 98, .3) 1px, transparent 10%);
+  background-size: 15px 15px;
 }
 .avatar{
     position: relative;
@@ -71,7 +109,6 @@
         }
     }
 }
-
 @media (max-width:991.9px){
     .w-sm{
         width: 24px;
