@@ -16393,11 +16393,11 @@ p {
 }
 
 .swiper-button-next {
-  margin-right: 6%; /* 調整箭頭位置 */
+  margin-right: 15%; /* 調整箭頭位置 */
 }
 
 .swiper-button-prev {
-  margin-left: 6%; /* 調整箭頭位置 */
+  margin-left: 15%; /* 調整箭頭位置 */
 }
 
 .banner .swiper-pagination-bullet {
