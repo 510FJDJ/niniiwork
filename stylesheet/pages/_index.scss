@@ -214,6 +214,13 @@
     }
     
   }
+  .fixed-top{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.1));
+  }
+  
 @media (max-width:991.9px){
     .w-sm{
         width: 24px;
@@ -247,3 +254,4 @@
         font-size: 20px;
     }
   }
+  
