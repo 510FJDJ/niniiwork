@@ -1,10 +1,4 @@
-// import "./stylesheet/all.css";
-// console.log("main.js 文件已成功載入！");
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const header = document.querySelector("header");
-//     header.innerHTML = "<h1>你好！歡迎來到我的作品集</h1>";
-// });
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1.6,
     spaceBetween: 80,
@@ -23,10 +17,10 @@ const swiper = new Swiper(".mySwiper", {
     },
     breakpoints: {
       992: {
-        slidesPerView: 1.6, // 較大螢幕的設置
+        slidesPerView: 1.6, 
       },
       0: {
-        slidesPerView: 1.1, // 手機版的設置，顯示一個內容
+        slidesPerView: 1.1, 
       },
     },
     mousewheel: true,
