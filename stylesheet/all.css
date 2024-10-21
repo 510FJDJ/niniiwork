@@ -16276,53 +16276,6 @@ p {
   background-size: 15px 15px;
 }
 
-.avatar {
-  position: relative;
-  z-index: 0;
-}
-.avatar::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 50px;
-  left: -10px;
-  width: 70px;
-  height: 65px;
-  background-image: url("/assets/images/dec/Blobs-1.png");
-  background-repeat: no-repeat;
-  z-index: 3;
-}
-@media (max-width: 992px) {
-  .avatar::before {
-    background-image: url("/assets/images/dec/Blobs-3.png");
-    width: 45px;
-    height: 50px;
-    top: 30px;
-    left: 20px;
-  }
-}
-.avatar::after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 420px;
-  right: 60px;
-  width: 57px;
-  height: 45px;
-  background-image: url("/assets/images/dec/Blobs-2.png");
-  background-repeat: no-repeat;
-  z-index: 3;
-}
-@media (max-width: 992px) {
-  .avatar::after {
-    background-image: url("/assets/images/dec/Blobs-4.png");
-    width: 33px;
-    height: 25px;
-    top: 280px;
-    right: 40px;
-  }
-}
-
 .wave {
   position: relative;
   z-index: 3;
