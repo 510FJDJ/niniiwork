@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-  <script type="module" crossorigin src="/niniiwork/assets/index-Dzoo84wI.js"></script>
-  <link rel="stylesheet" crossorigin href="/niniiwork/assets/index-8ixIiR9z.css">
+  <script type="module" crossorigin src="/niniiwork/assets/index-BxJMozer.js"></script>
+  <link rel="stylesheet" crossorigin href="/niniiwork/assets/index-Nabnn37C.css">
 </head>
-<body class="bg-success-100 grid-yellow">
+<body class="bg-success-100 grid-yellow" style="background-attachment: fixed">
     <header class="pt-10 pb-4">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 avatar">
-                    <img src="/niniiwork/assets/avatar-D0SzPjVa.png" alt="avatar">
+                <div class="col-lg-6" id="scene">
+                    <img src="/niniiwork/assets/avatar-D0SzPjVa.png" alt="avatar" data-depth="0.1" class="position-relative">
+                    <img src="data:image/png;base64,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" alt="Blobs-1" class="position-absolute"  data-depth="0.6" style="margin-top: 10%; margin-left: 3%; width: 13%; height: 12%;"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAtCAYAAAAUX8MIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKSSURBVHgB3Zr/VdswEMe/5wnYoGIC0glqJihpB2g6ATABYYKkEwD/t6RMQNggTIA3wAxAxJ0k+znEOD/sEPs+7/kpduz39MmdFEkWoSZ2AoM5YkQ44tKA0OPLB+EokoYjgeUy4nKORy5n1McMO4SwBSwmAqdc2QGXBvVJuCZTLm9YeIqG2UjSRQ24CHK7QiJ9yRGesnCCBlhb0t5x5F4xxHIa7gonSz9xjZqslAypOdpx9KqQVP5dJ40rJV16Wkz4Yw/7hjBk0UtswYeSQfAezXQsTSFRPd60rUZlF1sqKLh6cf3iTR4qlQwpatBOvOg/nK37wJIk/0oXaEMbXAVhFOq6xq0F7F+csPYEXYIw5jZ6XnVL9O5shK5hccape1V1Sy4ZQm/QRQiDKlEnGXrTAbqMiE7KM9FHcu66ZIOu41N3qdd1HY+9xRM0SGb4AcM0O404xPJ3YaAJi6sw5nZIusbQh0zk87QVyW/QCOE0i2bEoTXQyUEWTYlk+4dw20I+S4l7VgvNEA4jaIfHACKZQDdGv2SELyL5CM1YiSThP3RjsrHrMz5vPfWzSXzvavEHejFeMsIY/mWMSpwkT0tSbpvnUMriQtatW2uNoYzFEQ+hD33/m8mCZEjbY+hqn8nS2NW9Z9AkSiWS7rq83tYj+vDhLCSIfkX32+iscqqVp253h36JBGvlfFJE+ei79/hdg3ydN98YYd2+gV9oPwn9wKF82HaLi8jKItERkO/byUjzg1x7TvneF7d3J4Pc/WXPNoffZ3DtP+6ZsLjd4x9BsiNGE/hdI8PsdO+SRcI+obim8A2n6aB4oVWSRYLwSRBeZ9k0DREcv/+itZJF8ggD38NieCYt7XzG1x5kuuiGpSW8AX4JyOuJpSErAAAAAElFTkSuQmCC" alt="Blobs-2" class="position-absolute"  data-depth="0.8" style="margin-top: 75%; margin-left: 84%; width: 13%; height: 10%;"/>
+                </img>
                 </div>
                 <div class="col-lg-6 flex-column align-items-center text-center">
                     <h4 class="h1-lg mb-2">吳宜霓  <span style="font-family: 'Newsreader';">Penny</span> 👋 </h4>
@@ -30,15 +33,15 @@
                     </div>
                     <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 mb-5 mb-lg-9">
                         <div class="col flex-column align-items-center">
-                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';">2Y +</h4>
+                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';"><span class="count" data-target="2">0</span>Y +</h4>
                             <p class="h4-lg">工作經驗</p>
                         </div>
                         <div class="col flex-column align-items-center">
-                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';">5 +</h4>
+                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';"><span class="count" data-target="5">0</span> +</h4>
                             <p class="h4-lg">完成作品</p>
                         </div>
                         <div class="col flex-column align-items-center">
-                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';">23Y</h4>
+                            <h4 class="h3-lg fw-normal" style="font-family: 'Newsreader';"><span class="count" data-target="23">0</span>Y</h4>
                             <p class="h4-lg">目前年紀</p>
                         </div>
                     </div>
@@ -677,6 +680,7 @@ background-size: 15px 15px;">
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script>
         window.onload = function() {
           // 當頁面加載完成時，移除fixed-top
